@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Carl Hicks"]
   s.date = "2012-10-05"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Create fake people, with real-ish addresses."
   s.email = "carl.hicks@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -32,6 +32,7 @@ Gem::Specification.new do |s|
     "lib/poseur/person/address.rb",
     "lib/poseur/person/name.rb",
     "lib/poseur/person/phone.rb",
+    "poseur.gemspec",
     "spec/address_spec.rb",
     "spec/person_spec.rb",
     "spec/poseur_spec.rb",
@@ -41,7 +42,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.12"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Create fake people, with real-ish addresses."
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
