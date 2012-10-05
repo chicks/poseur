@@ -16,5 +16,11 @@ module Person
       end
       line.split(',').collect! { |x| x.strip }
     end
+    def address
+      @street + "\n" + @city + ", " + @state + " " + @zip
+    end
+    def to_s
+      address
+    end
   end
 end
