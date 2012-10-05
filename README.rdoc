@@ -1,6 +1,6 @@
 = poseur
 
-Description goes here.
+Create fake people, with real-ish addresses.
 
 == Contributing to poseur
  
