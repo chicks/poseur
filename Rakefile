@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "poseur"
   gem.homepage = "http://github.com/chicks/poseur"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Create fake people, with real-ish addresses.}
+  gem.description = %Q{Create fake people, with real-ish addresses.}
   gem.email = "carl.hicks@gmail.com"
   gem.authors = ["Carl Hicks"]
   # dependencies defined in Gemfile
